@@ -2,7 +2,36 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #000;
     font-family: 'Roboto', sans-serif;
-    color: #373A3C;
+    color: #ffffff;
+}
+#navbar-nav {
+    text-align: right;
+}
+h2 {
+    text-align: center;
+    margin: 2rem;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: aqua;
+    display: inline-flex;
+}
+footer p {
+    font-weight: lighter;
+    margin: 2rem;
+}
+footer a {
+    color: #ffffff;
 }

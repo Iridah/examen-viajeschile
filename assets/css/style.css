@@ -1,3 +1,4 @@
+/*preparacion inicial*/
 body {
     margin: 0;
     border: 0;
@@ -16,20 +17,24 @@ h3, h2 {
     margin: 2rem;
     font-weight: lighter;
 }
+.fa-solid {
+    background-color: aqua;
+    width: 100%;
+    margin: 0 auto; 
+    display: grid;
+    place-content: center;
+}
 /*card body seccion destacados*/
 .card-body {
     background-color: aqua;
     color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
+/*linea invisible*/
+hr {
+    margin-top: 100px;
+    border: none;
+}
+/*footer*/
 footer{
     background-color: aqua;
 }

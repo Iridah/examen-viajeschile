@@ -6,10 +6,13 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
-#navbar-nav {
+header {
+background-color: transparent;
+}
+#navbarSupportedContent {
     text-align: right;
 }
-h2 {
+h3 {
     text-align: center;
     margin: 2rem;
     font-weight: lighter;
@@ -26,7 +29,6 @@ h2 {
 
 footer{
     background-color: aqua;
-    display: inline-flex;
 }
 footer p {
     font-weight: lighter;
@@ -34,4 +36,15 @@ footer p {
 }
 footer a {
     color: #ffffff;
+}
+/*apoyo a la responsibidad*/
+@media screen and (max-width: 576px) {
+    .img-foot {
+        width: 10%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .img-foot {
+        width: 15%;
+    }
 }

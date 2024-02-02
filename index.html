@@ -18,15 +18,30 @@
 </head>
 <body>
 <!--navbar-->
-<nav class="navbar navbar-expand-lg bg-navbar-custom mb-5 sticky-top" data-bs-theme="dark">
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong mb-5 fixed-top">
+    <!-- Container wrapper -->
     <div class="container">
+      <!-- Navbar brand -->
       <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       <a class="navbar-brand" href="#">Viajes Chile</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
@@ -40,9 +55,13 @@
             <a class="nav-link" id="tooltip" href="#" title="Dejanos tu consulta y la responderemos a la brevedad">Contacto</a>
           </li>
         </ul>
+        <!-- Left links -->
       </div>
+      <!-- Collapsible wrapper -->
     </div>
+    <!-- Container wrapper -->
 </nav>
+</header>
 <!--hero section/carrusel-->
 <section class="hero">
     <div id="carouselExample" class="carousel slide">
@@ -181,12 +200,15 @@
 
 
 
-<footer>
-    <p>VIAJES CHILE</p>
-    <a href="https://github.com"><i class="fab fa-github-square fa-2x"></i></a>
-    <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
-    <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
-    <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+<footer class="bg-info text-white d-none d-md-block">
+    <div class="container d-flex align-items-center justify-content-around p-5"></div>
+        <h3>VIAJES CHILE</h3>
+        <a href="https://github.com"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+    </div>
+</footer>
 
 
 

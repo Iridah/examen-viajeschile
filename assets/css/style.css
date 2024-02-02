@@ -6,6 +6,7 @@ body {
     background-color: #000;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
+    scroll-behavior: smooth;
 }
 header {
 background-color: transparent;
@@ -29,6 +30,11 @@ h3, h2 {
     background-color: aqua;
     color: #ffffff;
 }
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /*linea invisible*/
 hr {
     margin-top: 100px;
@@ -46,13 +52,25 @@ footer a {
     color: #ffffff;
 }
 /*apoyo a la responsibidad*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 574px) {
     .img-foot {
         width: 10%;
     }
 }
-@media screen and (min-width: 577px) and (max-width: 992px){
+@media screen and (min-width: 575px) and (max-width: 992px){
     .img-foot {
         width: 15%;
     }
 }
+/*desaparecer presentacion*/
+@media screen and (max-width: 575px) {
+    .ocultar-div{
+        display:none;
+    }
+}
+/*Notas al margen*/
+/*
+Se estan utilizando las siguientes versiones:
+*Fontawesome Ver. 6
+*Bootstrap Ver. 5.3
+*jQuery Ver. 3.7.1

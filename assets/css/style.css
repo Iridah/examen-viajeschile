@@ -12,12 +12,15 @@ background-color: transparent;
 #navbarSupportedContent {
     text-align: right;
 }
-h3 {
-
+h3, h2 {
     margin: 2rem;
     font-weight: lighter;
 }
-
+/*card body seccion destacados*/
+.card-body {
+    background-color: aqua;
+    color: #ffffff;
+}
 
 
 
